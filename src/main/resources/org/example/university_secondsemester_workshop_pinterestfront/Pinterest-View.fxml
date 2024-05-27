@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="540.0" prefWidth="960.0" style="-fx-background-color: ffffff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.university_secondsemester_workshop_pinterestfront.PinterestController">
+   <children>
+      <ImageView fitHeight="43.0" fitWidth="41.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pictures/Pinterest-logo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="65.0" layoutY="26.0" text="Home">
+         <font>
+            <Font name="Calibri Light" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="113.0" layoutY="26.0" text="Create">
+         <font>
+            <Font name="Calibri Light" size="16.0" />
+         </font>
+      </Label>
+      <TextField layoutX="169.0" layoutY="18.0" prefHeight="34.0" prefWidth="641.0" style="-fx-background-radius: 20;" />
+      <ImageView fitHeight="34.0" fitWidth="31.0" layoutX="823.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pictures/Notification.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="31.0" layoutX="856.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pictures/Message.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="56.0" fitWidth="114.0" layoutX="890.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pictures/Profile.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="140.0" layoutY="67.0" prefHeight="419.0" prefWidth="679.0" style="-fx-background-color: ffffff; -fx-effect: dropshadow(gaussian, rgba(244, 244, 244, 1), 10, 0.5, 0, 0); -fx-background-radius: 20; -fx-border-color: e9e9e9; -fx-border-radius: 20; -fx-border-width: 1;">
+         <children>
+            <ImageView fx:id="following" fitHeight="34.0" fitWidth="113.0" layoutX="597.0" layoutY="167.0" onMouseClicked="#followingClick" pickOnBounds="true" preserveRatio="true" style="visibility: false;">
+               <image>
+                  <Image url="@pictures/Following.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="follow" fitHeight="33.0" fitWidth="55.0" layoutX="610.0" layoutY="168.0" onMouseClicked="#followClick" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pictures/Follow.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="34.0" fitWidth="55.0" layoutX="617.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pictures/Save.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="283.0" fitWidth="442.0" layoutX="15.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pictures/Raiisi.jpg" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="7.0" layoutY="6.0" prefHeight="298.0" prefWidth="443.0" style="-fx-background-color: TRANSPARENT; -fx-border-color: ffffff; -fx-border-width: 10; -fx-border-radius: 20;" />
+            <ImageView fitHeight="31.0" fitWidth="21.0" layoutX="454.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pictures/Share.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="18.0" fitWidth="31.0" layoutX="484.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pictures/More.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="456.0" layoutY="83.0" text="Ebrahim Raisi">
+               <font>
+                  <Font name="Calibri Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="456.0" layoutY="130.0" text="Iranian State, Supreme Leader Says">
+               <font>
+                  <Font name="Calibri Light" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="456.0" layoutY="115.0" prefHeight="14.0" prefWidth="193.0" text="Crowds for Raisi Show Support for">
+               <font>
+                  <Font name="Calibri Light" size="13.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="41.0" fitWidth="99.0" layoutX="452.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pictures/Brand.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
